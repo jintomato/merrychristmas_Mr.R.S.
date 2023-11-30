@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index(new)</title>
+	<link rel="stylesheet" href="Monday major/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+	
+	<header>
+	<a href="#" class="brand"></a>
+		
+		<div class="menu-btn">	</div>
+		
+		
+		
+		
+		<div class="navigation">
+		<div class="navigaition-items">
+			
+			
+			<a href="#">Home</a><br>
+			<a href="../page2/About page2.html">Album</a><br>
+			<a href="./Playlist.html">Play List</a>
+			
+			
+			</div>
+		
+		</div>
+	</header>
+	
+	
+	
+	<section class="home">
+		<video style="opacity:55%;" class="video-slide" src="Comp 1.mov" autoplay muted loop></video>
+		
+	<div class="content">
+		<h1 style="color:rgb(156, 6, 36);">Merry Christmas,
+		
+		</h1></span>
+		<p><span style="color: rgb(0, 173, 95);font-size:35px;">Mr. Ryuichi Sakamoto</span><br><br><br>
+			"세상은 소리에 가득 차 있어요"<br>
+
+	가장 순수한 상태의 음인 지구의 소리를 찾는 음악가,  류이치 사카모토   <br><br>
+			 “예술은 길고 인생은 짧다”<br>
+			 좋아하는 구절처럼 영원한 작품을 남긴 당신을 위해 <Br>	<Br>January 17 1952  -   March 28 2023<Br><br>
+			
+			
+			<br>
+			<b>당신의 Merry Christmas를 바라며.</b>
+			
+		
+		<br>
+		<br>
+		
+		<a href="../page2/About page2.html">Read More</a>
+		</div>
+		
+		<div class="media-icons">
+
+        <a href="https://ko-kr.facebook.com/skmtsocialkorea/"><i class="fab fa-facebook-f"></i></a>
+
+        <a href="hhttps://www.instagram.com/skmtgram/"><i class="fab fa-instagram"></i></a>
+
+        <a href="https://twitter.com/ryuichisakamoto"><i class="fab fa-twitter"></i></a>
+		</div>
+		
+		<div class="slider-navigation">
+		<div class="nav-btn active"></div>
+		<div class="nav-btn"></div>
+		<div class="nav-btn"></div>
+		<div class="nav-btn"></div>
+		<div class="nav-btn"></div>
+		</div>
+		
+	</section>
+	
+	<script type="text/javascript">
+	// javascript of responsive navigation menu
+		const menuBtn=document.querySelector(".menu-btn");
+		const navigation=document.querySelector(".navigation");
+		
+		
+		
+		menuBtn.addEventListener("click",()=> {
+			menuBtn.classList.toggle("active");
+			navigation.classList.toggle("active");
+		});
+		
+		
+		//Javascript for video slider navigation
+		const btns= document.querySelectorAll(".nav-btn");
+		
+		var sliderNav =function(manual){
+			btns.forEach((btn)=>{
+				btn.classList.remove("active")
+			});
+			btns[manual].classList.add("active");
+		}
+		
+		btns.forEach((btn,i)=>{
+			btn.addEventListener("click",()=>{
+				sliderNav(i);
+			});
+		});
+		
+		
+		
+		
+		
+	</script>
+	
+</body>
+</html>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
